@@ -1,0 +1,336 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FaceDetector/1.0.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Vision": "3.8.0",
+          "FaceRecognitionDotNet": "1.2.3.9",
+          "ImageProcessor.Core.CoreCompat": "1.3.0"
+        },
+        "runtime": {
+          "FaceDetector.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Imaging/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0",
+          "Accord.Statistics": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Imaging.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.MachineLearning/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0",
+          "Accord.Statistics": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.MachineLearning.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Math/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Core.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          },
+          "lib/netstandard2.0/Accord.Math.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Statistics/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Statistics.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Video/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Video.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Vision/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Imaging": "3.8.0",
+          "Accord.MachineLearning": "3.8.0",
+          "Accord.Math": "3.8.0",
+          "Accord.Statistics": "3.8.0",
+          "Accord.Video": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Vision.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "CoreCompat.System.Drawing.v2/5.2.0-preview1-r131": {
+        "dependencies": {
+          "System.Security.Permissions": "4.4.0-preview1-25305-02"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CoreCompat.System.Drawing.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DlibDotNet/19.16.0.20190122": {
+        "runtime": {
+          "lib/netstandard2.0/DlibDotNet.dll": {
+            "assemblyVersion": "19.16.0.0",
+            "fileVersion": "19.16.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/.keepfolder": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libDlibDotNetNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libDlibDotNetNativeDnn.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/.keepfolder": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libDlibDotNetNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libDlibDotNetNativeDnn.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/.keepfolder": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/DlibDotNetNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "19.16.0.0"
+          },
+          "runtimes/win-x64/native/DlibDotNetNativeDnn.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "19.16.0.0"
+          }
+        }
+      },
+      "FaceRecognitionDotNet/1.2.3.9": {
+        "dependencies": {
+          "DlibDotNet": "19.16.0.20190122"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FaceRecognitionDotNet.dll": {
+            "assemblyVersion": "1.2.3.9",
+            "fileVersion": "1.2.3.9"
+          }
+        }
+      },
+      "ImageProcessor.Core.CoreCompat/1.3.0": {
+        "dependencies": {
+          "CoreCompat.System.Drawing.v2": "5.2.0-preview1-r131",
+          "Microsoft.CSharp": "4.6.0-preview3.19128.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageProcessor.Core.CoreCompat.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.6.0-preview3.19128.7": {},
+      "Microsoft.NETCore.Platforms/2.0.0-preview1-25305-02": {},
+      "System.Security.AccessControl/4.4.0-preview1-25305-02": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0-preview1-25305-02",
+          "System.Security.Principal.Windows": "4.4.0-preview1-25305-02"
+        }
+      },
+      "System.Security.Permissions/4.4.0-preview1-25305-02": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.4.0-preview1-25305-02"
+        }
+      },
+      "System.Security.Principal.Windows/4.4.0-preview1-25305-02": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0-preview1-25305-02"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FaceDetector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Imaging/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PBZelpKoIW+h3uyNcTufFTCKxEtl/i8nNjgWctvvNu9EkEWDnZ0linckaDWr0rwO0Sx1DD8tL+hpxgOR1clgmg==",
+      "path": "accord.imaging/3.8.0",
+      "hashPath": "accord.imaging.3.8.0.nupkg.sha512"
+    },
+    "Accord.MachineLearning/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6d8HY6/S4t5LBgD4YWrHISDX4q9s/caBu4fbHhq5RH2U4ETbtnDcvwgtsqGHKH1FyPylWFOniYjLO4B4xkEEuw==",
+      "path": "accord.machinelearning/3.8.0",
+      "hashPath": "accord.machinelearning.3.8.0.nupkg.sha512"
+    },
+    "Accord.Math/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K3dzeQjDIrwRnoTRoMOoIbul2Uc0B8cnEtdrSlirmIo37C+jVkmYpJzme/z4Kg99XR2Vj5W5TTNlhjn+AKR+8A==",
+      "path": "accord.math/3.8.0",
+      "hashPath": "accord.math.3.8.0.nupkg.sha512"
+    },
+    "Accord.Statistics/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8WsmCE31Qdy3FmRvwtAY3F9/fJEi/6uyLQrhOvSI6pP6gpoaacmCrJRIphkGf2EB8gKHRWLAc4UXr1OOPHxkmQ==",
+      "path": "accord.statistics/3.8.0",
+      "hashPath": "accord.statistics.3.8.0.nupkg.sha512"
+    },
+    "Accord.Video/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-efsmrydC22ZEisWkukqAiCtv27qF0l5/9U1eCCTkbnc5EYYE6F2RSnsfWr8iTELXb3ZsLLGO+Sy+K0NXrHDv4A==",
+      "path": "accord.video/3.8.0",
+      "hashPath": "accord.video.3.8.0.nupkg.sha512"
+    },
+    "Accord.Vision/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-efDpsPE7bu8cKckguxLORGLRBXD35lqHL4sEHuKNffBvFpnFrXmCXPPtzmh68AIk74hViQ37qLy3wPQ7YaYhAw==",
+      "path": "accord.vision/3.8.0",
+      "hashPath": "accord.vision.3.8.0.nupkg.sha512"
+    },
+    "CoreCompat.System.Drawing.v2/5.2.0-preview1-r131": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+WrScg+skrIiNLBwbl+BFdlSyzUqKOZtAUskW2xfI8vcKQdDJp+UoreUFC9uMSEgSiAR32e5l3fTtFDUKEpRaA==",
+      "path": "corecompat.system.drawing.v2/5.2.0-preview1-r131",
+      "hashPath": "corecompat.system.drawing.v2.5.2.0-preview1-r131.nupkg.sha512"
+    },
+    "DlibDotNet/19.16.0.20190122": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9VxXgdcuFAUjitfFqR4TNhcQEzYq0NDO5R4v/X26w1ls9L1Q3W1FltDBIqJOUgLypT1k6T0R8eX1nzoV+gvLAg==",
+      "path": "dlibdotnet/19.16.0.20190122",
+      "hashPath": "dlibdotnet.19.16.0.20190122.nupkg.sha512"
+    },
+    "FaceRecognitionDotNet/1.2.3.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3DYgzWi3amHzNozgH14L7mErVizWSesNfYLhHv/ZEtALOq39cCQnsELNkU/FLZs4EsPhI6KUw9PRd3olTa12/A==",
+      "path": "facerecognitiondotnet/1.2.3.9",
+      "hashPath": "facerecognitiondotnet.1.2.3.9.nupkg.sha512"
+    },
+    "ImageProcessor.Core.CoreCompat/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3W7C02U12rrRVpvM1+OEFytkdDbFdTkOL5jJnpIEqglNudJqHjN0QHn1BUxVwl4tOZe9JtzQsoKU8jZHlGURDA==",
+      "path": "imageprocessor.core.corecompat/1.3.0",
+      "hashPath": "imageprocessor.core.corecompat.1.3.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9yECMX2xrjv0+4CNKxB8BwgMu8q7q7pu6UdlGhYQcbuPaFyy/eBzCeIzC/5oYBIqHReUHracsVrL7hrwnbjoMg==",
+      "path": "microsoft.csharp/4.6.0-preview3.19128.7",
+      "hashPath": "microsoft.csharp.4.6.0-preview3.19128.7.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0-preview1-25305-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lUNPleUY9EngiUQyOfWrizLcd3UqEUbqKVE2RRR+IVxwxXEohf6I/sljVk8BneeopbcdQVuvhs+pFczG0hd0Nw==",
+      "path": "microsoft.netcore.platforms/2.0.0-preview1-25305-02",
+      "hashPath": "microsoft.netcore.platforms.2.0.0-preview1-25305-02.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.4.0-preview1-25305-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3acs1/hAThiFxLFwfS0XXEOk/qw9+Wf2He4y0hj8ZQ7wQZum4/q7nv+zHUA/MigdYChM94qTArnUWkXdcFNkw==",
+      "path": "system.security.accesscontrol/4.4.0-preview1-25305-02",
+      "hashPath": "system.security.accesscontrol.4.4.0-preview1-25305-02.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.4.0-preview1-25305-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W4+sOQhP/hijYNMx/TQK2zXP1+8a9WYAvuMQS4XBe+Phfv8fqc4h+U/fzkWC5BuNN0InNY46F5WT1bbOyObQdg==",
+      "path": "system.security.permissions/4.4.0-preview1-25305-02",
+      "hashPath": "system.security.permissions.4.4.0-preview1-25305-02.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.4.0-preview1-25305-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i/87uUlutjoXKIGEgjAh6tzpFtwhBZxMqX+ZW38UoJqHxaW0+cglUovfEfPRJeEYFhck9SqJqJnEqsVvAgu6oQ==",
+      "path": "system.security.principal.windows/4.4.0-preview1-25305-02",
+      "hashPath": "system.security.principal.windows.4.4.0-preview1-25305-02.nupkg.sha512"
+    }
+  }
+}

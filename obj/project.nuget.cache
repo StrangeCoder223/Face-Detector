@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZK1V1y3DoVZgR7DFdy8VqdymICkysdfd+52g+BQ87isW0KRAsz8Asiheh6cokkrRx8MVFFIEC4oLzqv9Gr6nFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PenisDeathRow\\source\\repos\\FaceDetector\\FaceDetector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.imaging\\3.8.0\\accord.imaging.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.machinelearning\\3.8.0\\accord.machinelearning.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.video\\3.8.0\\accord.video.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\accord.vision\\3.8.0\\accord.vision.3.8.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\corecompat.system.drawing.v2\\5.2.0-preview1-r131\\corecompat.system.drawing.v2.5.2.0-preview1-r131.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\dlibdotnet\\19.16.0.20190122\\dlibdotnet.19.16.0.20190122.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\facerecognitiondotnet\\1.2.3.9\\facerecognitiondotnet.1.2.3.9.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\imageprocessor.core.corecompat\\1.3.0\\imageprocessor.core.corecompat.1.3.0.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\microsoft.csharp\\4.6.0-preview3.19128.7\\microsoft.csharp.4.6.0-preview3.19128.7.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0-preview1-25305-02\\microsoft.netcore.platforms.2.0.0-preview1-25305-02.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\system.security.accesscontrol\\4.4.0-preview1-25305-02\\system.security.accesscontrol.4.4.0-preview1-25305-02.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\system.security.permissions\\4.4.0-preview1-25305-02\\system.security.permissions.4.4.0-preview1-25305-02.nupkg.sha512",
+    "C:\\Users\\PenisDeathRow\\.nuget\\packages\\system.security.principal.windows\\4.4.0-preview1-25305-02\\system.security.principal.windows.4.4.0-preview1-25305-02.nupkg.sha512"
+  ],
+  "logs": []
+}
