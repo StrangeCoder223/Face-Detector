@@ -74,7 +74,7 @@ namespace FaceDetector
             _searcher = new FaceSearcher();
         }
 
-        private void AddNewPhoto(object arg)
+        private void AddNewPhotography(object arg)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Filter = "Фото (*.jpg) |*.jpg";
@@ -87,7 +87,7 @@ namespace FaceDetector
             
         }
 
-        private void RemovePhoto(object arg)
+        private void RemovePhotography(object arg)
         {
              Photos.Remove(SelectedPhoto);
         }
