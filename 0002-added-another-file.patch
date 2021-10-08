@@ -1,0 +1,23 @@
+From 1589483411109c5e3186ebee2c87f5afe4556b71 Mon Sep 17 00:00:00 2001
+From: DashaDolgova <dolgowadasha2014@gmail.com>
+Date: Sat, 9 Oct 2021 01:21:12 +0500
+Subject: [PATCH 2/2] added another file
+
+---
+ another-test-file | Bin 0 -> 24 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 another-test-file
+
+diff --git a/another-test-file b/another-test-file
+new file mode 100644
+index 0000000000000000000000000000000000000000..190c823f92a966bc259da3a843fdfecc66ed8b6b
+GIT binary patch
+literal 24
+ccmezWub3g9A(tVQL4lzJNEQQ0UIs1(0AUmbsQ>@~
+
+literal 0
+HcmV?d00001
+
+-- 
+2.33.0.windows.2
+
